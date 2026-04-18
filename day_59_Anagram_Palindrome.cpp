@@ -68,7 +68,7 @@ Approach:
 4. Iterate through the freq array and for each frequency x, check if it is odd (x % 2 != 0). If it is odd, increment the oddCount.
 5. Finally, return true if oddCount is less than or equal to 1, indicating that at most one character has an odd frequency, which is a necessary condition for an anagram of s to be a palindrome. Otherwise, return false.
 
-Time Complexity: O(n), where n is the length of the input string s, since we need to iterate through the string to count the frequencies and then iterate through the frequency array.
+    Time Complexity: O(n), where n is the length of the input string s, since we need to iterate through the string to count the frequencies and then iterate through the frequency array.
 Space Complexity: O(1), since the frequency array has a fixed size of 26, regardless of the input string length.
 
 
