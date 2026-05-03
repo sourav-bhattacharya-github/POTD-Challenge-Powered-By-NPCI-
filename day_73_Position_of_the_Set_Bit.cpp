@@ -75,5 +75,4 @@ Let's take N = 4 as an example:
   - N >>= 1 -> N = 1 (binary: 1), pos = 3
 - Now N is 1, so we stop and return pos, which is 3. This indicates that the set bit is at position 3 from the right.
 
-
 */
